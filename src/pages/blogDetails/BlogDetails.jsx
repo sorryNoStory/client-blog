@@ -60,7 +60,7 @@ const BlogDetails = () => {
           Go Back <AiOutlineArrowRight />
         </Link>
         <div className={classes.wrapper}>
-          <img src={`https://mern-blog-app-6ogy.onrender.com/images/${blogDetails?.photo}`} />
+          <img src={`https://mern-blog-app-6ogy.onrender.com/images/${blogDetails?.photo}`} alt='blogphoto' />
           <div className={classes.titleAndControls}>
             <h3 className={classes.title}>{blogDetails?.title}</h3>
             {blogDetails?.userId?._id === user._id ?

@@ -38,6 +38,7 @@ const Navbar = () => {
             onClick={() => setShowModal((prev) => !prev)}
             src={womanImg}
             className={classes.img}
+            alt='womanImg'
           />
           {showModal && (
             <div className={classes.modal}>

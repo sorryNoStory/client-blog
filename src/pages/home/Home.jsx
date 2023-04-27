@@ -3,7 +3,6 @@ import Categories from '../../components/categories/Categories'
 import Footer from '../../components/footer/Footer'
 import Navbar from '../../components/navbar/Navbar'
 import Newsletter from '../../components/newsletter/Newsletter'
-import classes from './home.module.css'
 import Head from '../../components/head/Head'
 
 const Home = () => {

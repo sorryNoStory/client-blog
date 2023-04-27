@@ -43,7 +43,7 @@ const UpdateBlog = () => {
       }
     }
     fetchBlogDetails()
-  }, [id])
+  }, [id, token])
 
 
   const handleUpdateBlog = async (e) => {

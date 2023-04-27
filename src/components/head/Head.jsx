@@ -7,7 +7,7 @@ const Head = () => {
     <div className={classes.container}>
       <div className={classes.wrapper}>
         <div className={classes.imageWrapper}>
-          <img src={mainimg}/>
+          <img src={mainimg} alt='mainIm'/>
         </div>
         <div className={classes.textWrapper}>
           <h1>Welcome to our blog website</h1>
