@@ -64,8 +64,8 @@
 
 .imageName {
     position: absolute;
-    right: 45rem;
-    top: 38rem;
+    right: 38rem;
+    top: 33rem;
     display: flex;
     align-items: center;
     gap: 6px;
