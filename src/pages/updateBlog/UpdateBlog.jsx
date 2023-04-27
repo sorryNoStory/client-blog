@@ -9,7 +9,6 @@ import { request } from '../../utils/fetchApi'
 import classes from './updateBlog.module.css'
 
 const UpdateBlog = () => {
-  const [blogDetails, setBlogDetails] = useState("")
   const [title, setTitle] = useState("")
   const [desc, setDesc] = useState("")
   const [category, setCategory] = useState("")
@@ -33,7 +32,6 @@ const UpdateBlog = () => {
       try {
         const options = {'Authorization': `Bearer ${token}`}
         const data = await request(`/blog/find/${id}`, 'GET', options)
-        setBlogDetails(data)
         setTitle(data.title)
         setDesc(data.desc)
         setCategory(data.category)
@@ -93,5 +91,6 @@ const UpdateBlog = () => {
     </>
   )
 }
+
 
 export default UpdateBlog
