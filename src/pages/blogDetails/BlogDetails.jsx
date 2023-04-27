@@ -11,7 +11,7 @@ import {format} from 'timeago.js'
 import { AiFillEdit, AiFillLike, AiFillDelete, AiOutlineArrowRight, AiOutlineLike } from 'react-icons/ai'
 
 const BlogDetails = () => {
-  const [blogDetails, setBlogDetails] = useState("")
+  const [blogDetails, setBlogDetails] = useState({})
   const [isLiked, setIsLiked] = useState(false)
   const { id } = useParams()
   const { user, token } = useSelector((state) => state.auth)
